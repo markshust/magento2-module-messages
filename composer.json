@@ -1,0 +1,21 @@
+{
+    "name": "markshust/magento2-module-messages",
+    "description": "The Messages module allows you to send success, notice, warning and error messages with HTML.",
+    "require": {
+        "php": ">=7.1",
+        "magento/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MarkShust\\Messages\\": ""
+        }
+    }
+}
